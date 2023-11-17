@@ -1,7 +1,7 @@
 import type { ECBasicOption } from 'echarts/types/src/util/types'
-
+import {EChartsOption} from "echarts"
 declare module "ZCharts"{
-  export {}
+  export {EChartsOption}
   export type EchartsData ={
     value: string | number;
     label: string;
